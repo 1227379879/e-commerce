@@ -1,0 +1,30 @@
+{
+  "id": "2273442",
+  "name": "亚马逊",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5679658",
+      "name": "美国国旗_",
+      "font_class": "meiguoguoqi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10960502",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "15588359",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
