@@ -4,7 +4,7 @@ import Body from "./module/Body/Body";
 import About from "./module/About/About";
 import FooterCom from "../../components/FooterCom/FooterCom";
 
-function App() {
+function Home() {
     return (
         <div className="App">
             <HeaderCom/>
@@ -15,4 +15,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;

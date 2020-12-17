@@ -33,7 +33,9 @@
     border-left: 1px solid #D3D3D3;
     border-right: 1px solid #D3D3D3;
     height: 38px;
-
+}
+.body-col a{
+    color: #008296;
 }
 .body-row:nth-child(2){
     border: none;
