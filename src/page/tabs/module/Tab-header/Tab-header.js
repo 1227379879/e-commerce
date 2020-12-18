@@ -10,6 +10,7 @@ import Tab6Banner from "../components/Tab6-banner/Tab6-banner";
 import Tab7Banner from "../components/Tab7-banner/Tab7-banner";
 import Tab8Banner from "../components/Tab8-banner/Tab8-banner";
 import IconFont from "../../../../components/Icon/Icon";
+import FooterCom from "../../../../components/FooterCom/FooterCom";
 
 function TabHeader() {
     const {TabPane} = Tabs;
@@ -60,10 +61,13 @@ function TabHeader() {
                             )
                         })
                     }
-
                 </Tabs>
             </div>
+            <div className="tab-footer">
+                <FooterCom/>
+            </div>
         </div>
+
     )
 }
 
