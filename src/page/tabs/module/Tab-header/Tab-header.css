@@ -14,14 +14,10 @@
 .ant-tabs-tab{
     padding: 12px 4px!important;
 }
-
-/*.ant-tabs-tab-active{*/
-/*    color: #002F36!important;*/
-/*    font-weight: bold!important;*/
-
-/*}*/
-
-
-/*.ant-tabs-ink-bar{*/
-/*    background-color: #002F36 !important;*/
-/*}*/
+.ant-tabs-ink-bar{
+    background-color: #002F36 !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #002F36!important;
+    font-weight: bold!important;
+}

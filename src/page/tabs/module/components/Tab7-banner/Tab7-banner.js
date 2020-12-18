@@ -1,7 +1,6 @@
 import React from "react"
 function Tab7Banner(){
     return(
-
       7777
     )
 }

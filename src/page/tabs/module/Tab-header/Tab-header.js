@@ -39,12 +39,12 @@ function TabHeader() {
                 <div className="logo-char">seller central</div>
             </div>
             <div className="tabs-box-change">
-                <Tabs defaultActiveKey="1" centered tabBarGutter={10}>
+                <Tabs defaultActiveKey="1" centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
                     {
                         data.tabList2.map((item, index) => {
                             return (
-                                <TabPane tabBarStyle={{color:"#002F36"}} tab={
-                                    <span>
+                                <TabPane tab={
+                                    <span style={{display:"flex",alignItems:"center"}}>
                                         {(index === 0 || index === 2) ? <IconFont type="icon-jinggao" className="tab-icon"/> : ""}
                                         {item.title}
                                     </span>} key={item.id}>
