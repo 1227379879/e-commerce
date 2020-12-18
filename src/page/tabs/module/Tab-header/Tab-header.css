@@ -1,0 +1,27 @@
+.tab-logo-box{
+    align-items: normal;
+    border: none;
+}
+.tabs-box-change{
+    width: 1024px;
+    margin: 0 auto;
+}
+.tab-icon{
+    font-size: 22px;
+    margin: 0!important;
+}
+/* 间距*/
+.ant-tabs-tab{
+    padding: 12px 4px!important;
+}
+
+/*.ant-tabs-tab-active{*/
+/*    color: #002F36!important;*/
+/*    font-weight: bold!important;*/
+
+/*}*/
+
+
+/*.ant-tabs-ink-bar{*/
+/*    background-color: #002F36 !important;*/
+/*}*/
