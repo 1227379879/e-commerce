@@ -63,9 +63,6 @@ function TabHeader() {
                     }
                 </Tabs>
             </div>
-            <div className="tab-footer">
-                <FooterCom/>
-            </div>
         </div>
 
     )

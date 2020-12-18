@@ -1,11 +1,14 @@
 import React,{useState} from "react"
 import "./Tab1-banner.css"
-import {Row, Col, Switch, Input, Form, Button} from 'antd';
+import {Input, Form, Button, Select} from 'antd';
 import {QuestionCircleOutlined} from '@ant-design/icons';
+import BannerHeader from "../Banner-header";
 import IconFont from "../../../../../components/Icon/Icon";
-import FooterCom from "../../../../../components/FooterCom/FooterCom";
+
+
 
 function Tab1Banner() {
+    const {Option} = Select;
     let [data] = useState({
         formList:[
             {id:1, rules:false,title:"单品计数",placeholder:"1,4,12,16.58",extra:""},
@@ -19,27 +22,12 @@ function Tab1Banner() {
             {id:9, rules:false,title:"颜色",placeholder:"Red,Navy Blue,Pink,Green",extra:""},
             {id:10, rules:false,title:"色表",placeholder:"Red, Blue,Yellow",extra:""},
             {id:11, rules:true,title:"批次数目",placeholder:"24.0",extra:""},
-            {id:12, rules:true,title:"批次类型",placeholder:"bottle,ounce",extra:""},
+            {id:12, rules:true,title:"批次类型",placeholder:"bottle,ounce",extra:""}
         ]
     })
     return (
         <div className="tab1Banner-box">
-            <div className="tab1-header">
-                <span>高级视图</span>
-                <Switch size="small" defaultChecked/>
-            </div>
-            <div className="tab1-crumbs">
-                <span className="tab1-crumbs-title">美容和个人护理</span>
-                <IconFont type="icon-fanhui-copy-copy" className="tab1-icon"/>
-                <span className="tab1-crumbs-title">化妆品</span>
-                <IconFont type="icon-fanhui-copy-copy" className="tab1-icon"/>
-                <span>化妆套餐</span>
-            </div>
-            <div className="tab1-hint">
-                <IconFont type="icon-jinggao1" className="tab1-hint-icon"/>
-                <span className="tab1-hint-title">当多个卖家通过单一详情页面销售相同的商品时，我们会整合最佳商品数据进行展示，以确保买家获得最佳体验。</span>
-            </div>
-
+            <BannerHeader/>
             <Form labelCol={{span: 4}} wrapperCol={{span: 14}} layout="horizontal">
                 {
                     data.formList.map((item,index)=>{
@@ -47,7 +35,17 @@ function Tab1Banner() {
                             <Form.Item name={item.title} key={index} extra={item.extra} label={
                                 <span className="tab1-form-title">{item.title}&nbsp;<QuestionCircleOutlined style={{color: "#008296"}}/></span>}
                                        rules={[{required: item.rules, message: '一段验证信息'}]}>
-                                <Input placeholder={item.placeholder}/>
+                                {
+                                    item.id === 2 ?
+                                        <div>
+                                     <Input placeholder={item.placeholder} style={{width:"300px"}}/>   <Select placeholder="-选择-" style={{width: "200px"}}>
+                                        <Option value="jack">Jack</Option>
+                                        <Option value="lucy">Lucy</Option>
+                                        <Option value="Yiminghe">yiminghe</Option>
+                                    </Select>
+                                            <IconFont type="icon-suo" style={{marginLeft:"10px",fontSize:"20px"}}/>
+                                    </div>: <Input placeholder={item.placeholder}/>
+                                }
                             </Form.Item>
                         )
                     })

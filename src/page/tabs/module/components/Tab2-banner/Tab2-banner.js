@@ -1,25 +1,28 @@
 import React from "react"
-import {Switch} from "antd";
-import IconFont from "../../../../../components/Icon/Icon";
-function Tab2Banner(){
-    return(
+import BannerHeader from "../Banner-header";
+import {Button, Form, Select} from "antd";
+import "./Tab2-banner.css"
+
+const {Option} = Select;
+
+function Tab2Banner() {
+    return (
         <div className="tab1Banner-box">
-            <div className="tab1-header">
-                <span>高级视图</span>
-                <Switch size="small" defaultChecked/>
+            <BannerHeader/>
+            <div className="tab2-main">
+                <p>变体主题</p>
+                <Select placeholder="-选择-" style={{width: "490px"}}>
+                    <Option value="jack">Jack</Option>
+                    <Option value="lucy">Lucy</Option>
+                    <Option value="Yiminghe">yiminghe</Option>
+                </Select>
             </div>
-            <div className="tab1-crumbs">
-                <span className="tab1-crumbs-title">美容和个人护理</span>
-                <IconFont type="icon-fanhui-copy-copy" className="tab1-icon"/>
-                <span className="tab1-crumbs-title">化妆品</span>
-                <IconFont type="icon-fanhui-copy-copy" className="tab1-icon"/>
-                <span>化妆套餐</span>
-            </div>
-            <div className="tab1-hint">
-                <IconFont type="icon-jinggao1" className="tab1-hint-icon"/>
-                <span className="tab1-hint-title">当多个卖家通过单一详情页面销售相同的商品时，我们会整合最佳商品数据进行展示，以确保买家获得最佳体验。</span>
+            <div className="tab1-button tab2-button">
+                <Button>取消</Button>
+                <Button>保存并完成</Button>
             </div>
         </div>
     )
 }
+
 export default Tab2Banner
