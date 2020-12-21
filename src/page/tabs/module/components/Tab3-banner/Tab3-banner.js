@@ -51,7 +51,7 @@ function Tab3Banner(){
                                 }
 
                                 {
-                                    item.id === 12 || item.id === 13 || item.id === 14 || item.id === 15?<Select placeholder={item.placeholder}/>:""
+                                    item.id === 12 || item.id === 13 || item.id === 14 || item.id === 15?<Select className="tab3-select" placeholder={item.placeholder}/>:""
                                 }
                                 {
                                     item.id === 3? <div className="tab3-text">

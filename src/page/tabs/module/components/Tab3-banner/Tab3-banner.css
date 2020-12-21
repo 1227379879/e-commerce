@@ -56,7 +56,6 @@
 .ant-picker-input input::-webkit-input-placeholder , textarea::-webkit-input-placeholder,.ant-select-selection-placeholder{
     color: #BFBFBF;
     font-size: 12px;
-    font-style: italic;
 }
 .tab3-box{
     background: #fff;
@@ -64,7 +63,7 @@
 .ant-form-item-control-input-content input{
     width: 90%;
 }
-.ant-form-item .ant-select, .ant-form-item .ant-cascader-picker {
+.tab3-select {
     width: 90% !important;
 }
 .ant-form-item-extra{

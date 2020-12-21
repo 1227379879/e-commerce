@@ -39,7 +39,7 @@ function TabHeader() {
                 <div className="logo-char">seller central</div>
             </div>
             <div className="tabs-box-change">
-                <Tabs defaultActiveKey="3" centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
+                <Tabs defaultActiveKey="4" centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
                     {
                         data.tabList2.map((item, index) => {
                             return (
