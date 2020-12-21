@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import {Switch , Checkbox } from "antd";
 import IconFont from "../../../../../components/Icon/Icon";
 import "./Banner-header.css"

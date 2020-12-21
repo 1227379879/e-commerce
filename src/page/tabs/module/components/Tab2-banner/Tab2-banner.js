@@ -1,6 +1,6 @@
 import React from "react"
 import BannerHeader from "../Banner-header";
-import {Button, Form, Select} from "antd";
+import {Button, Select} from "antd";
 import "./Tab2-banner.css"
 
 const {Option} = Select;

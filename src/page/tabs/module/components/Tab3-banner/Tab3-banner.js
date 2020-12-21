@@ -9,7 +9,6 @@ import locale from 'antd/lib/date-picker/locale/zh_CN'
 import 'moment/locale/zh-cn'
 moment.locale('zh-cn')
 function Tab3Banner(){
-    const {Option} = Select;
     let [data] = useState({
         FormList:[
             {id:1, rules:false,title:"商品发布日期",placeholder:"MM/DD/YYYY",extra:""},

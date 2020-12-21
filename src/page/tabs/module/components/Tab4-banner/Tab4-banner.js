@@ -3,9 +3,7 @@ import "./Tab4-banner.css"
 import BannerHeader from "../Banner-header";
 import {Button, Form, Input, Select} from "antd";
 import {QuestionCircleOutlined} from "@ant-design/icons";
-import IconFont from "../../../../../components/Icon/Icon";
 function Tab4Banner(){
-    const {Option} = Select;
     let [data] = useState({
         formList:[
             {id:1, rules:false,title:"电池重量（克）",placeholder:"150",extra:""},

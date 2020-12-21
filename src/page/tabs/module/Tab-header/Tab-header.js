@@ -13,7 +13,7 @@ import IconFont from "../../../../components/Icon/Icon";
 
 function TabHeader() {
     const {TabPane} = Tabs;
-    let [data] = useState({
+    let [data,setData] = useState({
         tabList: [
             {id: 1, title: "重要信息", iconfont: ""},
             {id: 2, title: "变体", iconfont: ""},
@@ -29,9 +29,11 @@ function TabHeader() {
             {id: 6, title: "描述", iconfont: ""},
             {id: 7, title: "关键字", iconfont: ""},
             {id: 8, title: "更多详情", iconfont: ""}
-        ]
-    })
+        ],
+        tabCount:""
+    });
     return (
+
         <div className="tabs-box">
             <div className="nav-box tab-logo-box">
                 <div className="home-logo">
@@ -39,7 +41,7 @@ function TabHeader() {
                 <div className="logo-char">seller central</div>
             </div>
             <div className="tabs-box-change">
-                <Tabs defaultActiveKey="4" centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
+                <Tabs defaultActiveKey='5' centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
                     {
                         data.tabList2.map((item, index) => {
                             return (
