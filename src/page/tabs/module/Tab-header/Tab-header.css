@@ -22,3 +22,21 @@
     color: #002F36!important;
     font-weight: bold!important;
 }
+.tabs-waring{
+    height: 58px;
+    background-color: #faeaea;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.tabs-waring-icon{
+font-size: 40px;
+    margin-right: 10px;
+}
+.tabs-waring-error p{
+    margin: 0;
+    font-size: 12px;
+}
+.tabs-waring-error p:first-child{
+    font-weight: bold;
+}

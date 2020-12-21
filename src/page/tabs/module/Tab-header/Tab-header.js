@@ -29,19 +29,37 @@ function TabHeader() {
             {id: 6, title: "描述", iconfont: ""},
             {id: 7, title: "关键字", iconfont: ""},
             {id: 8, title: "更多详情", iconfont: ""}
-        ],
-        tabCount:""
+        ]
     });
+    let [count,setCount] = useState({
+        tabCount:"1"
+    })
+    let TabClick = (e)=>{
+        setCount({
+            tabCount:e
+        })
+    };
     return (
-
         <div className="tabs-box">
+            {
+                count.tabCount==='8'||count.tabCount==="6"?  <div className="tabs-waring">
+                    <div className="tabs-waring-icon-box">
+                        <IconFont type="icon-jinggao" className="tabs-waring-icon"/>
+                    </div>
+                    <div className="tabs-waring-error">
+                        <p>先修复1错误，然后在提交您的商品信息</p>
+                        <p>Go to the steps highlighted in red to view and fix the errors</p>
+                    </div>
+                </div>:""
+            }
+
             <div className="nav-box tab-logo-box">
                 <div className="home-logo">
                 </div>
                 <div className="logo-char">seller central</div>
             </div>
             <div className="tabs-box-change">
-                <Tabs defaultActiveKey='1' centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}}>
+                <Tabs defaultActiveKey='1' centered tabBarGutter={10}  tabBarStyle={{color:"#002F36"}} onTabClick={TabClick}>
                     {
                         data.tabList2.map((item, index) => {
                             return (
