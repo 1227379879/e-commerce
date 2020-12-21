@@ -1,0 +1,333 @@
+.manageInventory {
+    padding: 0 0.48rem;
+    width: 100%;
+    height: 100%;
+}
+
+.manageInventory-header {
+    margin-top: 0.48rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.32rem;
+}
+
+.manageInventory-header li {
+    color: #0066c0;
+}
+
+.manageInventory-header li:last-child {
+    color: #cc6600;
+    margin-left: 0.187rem !important;
+    font-size: 0.293rem !important;
+}
+
+.manageInventory-header span {
+    margin: 0 0.293rem !important;
+    color: #dddddd;
+}
+
+.manageInventory-Title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage-Title-left {
+    display: flex;
+    align-items: center;
+}
+
+.manage-Tit-l {
+    font-size: 0.667rem;
+}
+
+.manage-Tit-r {
+    margin: 0.4rem 0 0 0.293rem;
+    font-size: 0.32rem;
+    color: #0066c0;
+}
+
+.manage-Tit-r span:nth-child(2) {
+    color: #dddddd;
+    margin: 0 0.293rem !important;
+}
+
+.manage-Title-right {
+    display: flex;
+    align-items: center;
+}
+
+.manage-Title-right button {
+    background-color: #f4f5f7;
+    font-size: 0.347rem;
+    padding: 0.107rem 0.133rem;
+    border: solid #adb1b8 0.027rem;
+}
+
+.manage-Title-right span {
+    color: #cc6600;
+    margin-left: 0.187rem !important;
+    font-size: 0.293rem !important;
+}
+
+.manage-Title-right button:nth-child(2) {
+    margin: 0 0.293rem;
+}
+
+.manageInventory-DropdownSearch {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem 0;
+}
+
+.manageInventory-DropdownSearch select {
+    margin: 0 !important;
+    background-color: #f7f8fa;
+}
+
+.manageInventory-Search {
+    margin-left: 15px;
+    height: 25px;
+    border: solid #949494 1px;
+    border-radius: 3px;
+}
+
+.manageInventory-Search span {
+    width: 25px;
+}
+
+.manageInventory-Search input {
+    border: none;
+    font-size: 13px !important;
+}
+
+.manageInventory-DropdownSearch button {
+    width: 40px;
+    height: 25px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #666d74;
+    border: #3d444c solid 1px;
+    border-radius: 3px;
+}
+
+.manageInventory-Piece {
+    font-size: 13px;
+    margin-left: 20px;
+    color: #111111;
+}
+
+.manageInventory-radio {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #f3f3f3;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.manageInventory-radio span {
+    margin: 0 20px;
+    font-size: 20px;
+    color: #dddddd;
+}
+
+.manageInventory-screen {
+    margin-right: 30px;
+    font-size: 13px;
+    color: #898989;
+}
+
+.manageInventory-state {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.manageInventory-state input {
+    margin: 3px 5px 0 5px;
+}
+
+.manageInventory-state label {
+    color: #111111;
+}
+
+.manageInventory-radio select {
+    background-color: #f5f6f9;
+    border-radius: 3px;
+}
+
+.manageInventory-orderForm {
+    border: #eaeaea solid 1px;
+    margin-top: 5px;
+    font-size: 12px !important;
+}
+
+.manage-orderForm-top {
+    background-color: #f3f3f3;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: #eaeaea solid 1px;
+}
+.manage-orderForm-data{
+    display: flex;
+    padding: 5px 0;
+    border-bottom: #eaeaea solid 1px;
+}
+
+.manage-orderForm-margin {
+    margin: 0 4px;
+    font-weight: bold;
+}
+.manage-orderForm-dingDan{
+    margin: 0 4px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.manage-orderForm-weight {
+    color: #666666;
+    font-weight: lighter;
+}
+
+.manage-orderForm-color {
+    color: #0066c3;
+}
+
+.manage-orderForm-radio {
+    width: 30px;
+}
+
+.manage-orderForm-state {
+    width: 40px;
+}
+
+.manage-orderForm-image {
+    width: 55px;
+}
+
+.manage-orderForm-condition {
+    width: 80px;
+}
+
+.manage-orderForm-serialNumber {
+    width: 80px;
+}
+
+.manage-orderForm-name {
+    width: 145px;
+}
+
+.manage-orderForm-date {
+    width: 110px;
+}
+.manage-orderForm-date div:nth-child(1){
+    color: #e47911;
+}
+
+.manage-orderForm-endibility {
+    width: 50px;
+}
+.manage-orderForm-endibility input{
+    text-align: right;
+    border-radius: 3px;
+    border: #a6a6a6 solid 1px;
+    width: 100%;
+    padding: 0 4px;
+}
+
+.manage-orderForm-bePutInStorage {
+    width: 50px;
+}
+
+.manage-orderForm-doNotSell {
+    width: 65px;
+    text-align: right;
+}
+
+.manage-orderForm-reserved {
+    width: 65px;
+    text-align: right;
+}
+
+.manage-orderForm-estimatedCost {
+    width: 17px;
+    text-align: right;
+}
+
+.manage-orderForm-price {
+    width: 110px;
+    text-align: right;
+}
+.manage-orderForm-price input{
+    text-align: right;
+    border-radius: 3px;
+    border: #a6a6a6 solid 1px;
+    padding: 0 4px;
+    width: 100%;
+}
+.manage-orderForm-enterprisePrice {
+    width: 110px;
+    text-align: right;
+}
+
+.manage-orderForm-enterprisePrice input{
+    text-align: right;
+    border-radius: 3px;
+    border: #a6a6a6 solid 1px;
+    padding: 0 4px;
+    width: 95%;
+}
+.manage-orderForm-reservePrice {
+    width: 50px;
+    text-align: right;
+}
+
+.manage-orderForm-salesRank {
+    width: 17px;
+    text-align: right;
+}
+
+.manage-orderForm-buttonPrice {
+    width: 32px;
+    text-align: right;
+}
+
+.manage-orderForm-buttonStatus {
+    width: 17px;
+    text-align: right;
+}
+
+.manage-orderForm-fnSku {
+    width: 50px;
+}
+
+.manage-orderForm-distribution {
+    width: 65px;
+    text-align: right;
+}
+
+.manage-orderForm-upcEan {
+    width: 65px;
+    text-align: right;
+}
+
+.manage-orderForm-save {
+    width: 80px;
+    text-align: center;
+}
+
+.manage-orderForm-save button {
+    width: 60px;
+    background-color: #f9f3e5;
+    border: #e8e0cd solid 1px;
+}
+.manage-orderForm-save select{
+    border-radius: 2px;
+    height: 20px;
+    background-color: #f0f1f4;
+    margin: 0!important;
+    width: 100%;
+}
