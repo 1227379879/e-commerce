@@ -1,9 +1,9 @@
 import React, {useState} from "react"
-import "./Tab4-banner.css"
 import BannerHeader from "../Banner-header";
 import {Button, Form, Input, Select} from "antd";
 import {QuestionCircleOutlined} from "@ant-design/icons";
-function Tab4Banner(){
+import "./Tab4-banner.css"
+function Tab4Banner() {
     let [data] = useState({
         formList:[
             {id:1, rules:false,title:"电池重量（克）",placeholder:"150",extra:""},
@@ -36,7 +36,7 @@ function Tab4Banner(){
             {id:28, rules:false,title:"Pesticide Certification Number",placeholder:"138293",extra:"添加更多"},
         ]
     })
-    return(
+    return (
         <div className="tab4-box">
             <BannerHeader/>
             <Form labelCol={{span: 4}} wrapperCol={{span: 14}} layout="horizontal" style={{paddingLeft: "50px"}}>
@@ -45,17 +45,17 @@ function Tab4Banner(){
                         return(
                             <Form.Item  key={index} extra={item.extra} label={
                                 <span className="tab1-form-title">{item.title}&nbsp;<QuestionCircleOutlined style={{color: "#008296"}}/></span>}
-                                       rules={[{required: item.rules, message: '一段验证信息'}]}>
+                                        rules={[{required: item.rules, message: '一段验证信息'}]}>
                                 {
                                     item.id ===1||item.id ===2||item.id ===3||item.id ===4||item.id ===5?
                                         <div className="tab4-unite">
-                                        <Input placeholder={item.placeholder} style={{width:"270px"}}/>
-                                        <Select placeholder="-选择-" className="tab4-select"/>
+                                            <Input placeholder={item.placeholder} style={{width:"270px"}}/>
+                                            <Select placeholder="-选择-" className="tab4-select"/>
                                         </div> :""
                                 }
                                 {
                                     item.id ===6||item.id ===11||item.id ===12||item.id ===13||item.id ===16||item.id ===17||item.id ===18||item.id ===21||item.id ===22||item.id ===23||item.id ===24||item.id ===25||item.id ===28?
-                                    <Input placeholder={item.placeholder} style={item.id ===28?{width:"270px"}:{}}/>:""
+                                        <Input placeholder={item.placeholder} style={item.id ===28?{width:"270px"}:{}}/>:""
                                 }
                                 {
                                     item.id ===7||item.id ===8||item.id ===9||item.id ===10||item.id ===14||item.id ===15||item.id ===19||item.id ===20||item.id === 26 || item.id === 27?
@@ -75,4 +75,5 @@ function Tab4Banner(){
         </div>
     )
 }
+
 export default Tab4Banner
