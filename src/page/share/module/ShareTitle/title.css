@@ -1,0 +1,34 @@
+.share-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.share-title-left span:nth-child(1) {
+    color: #cc6600;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.share-title-left span:nth-child(2) {
+    font-size: 12px !important;
+    color: #004b91 !important;
+}
+
+.share-title-right button {
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 0 10px;
+}
+
+.share-title-right button:nth-child(1) {
+    background-color: #dcdcb9;
+    border: #747449 solid 1px;
+}
+
+.share-title-right button:nth-child(2) {
+    background-color: #fbc134;
+    border: #334a79 solid 1px;
+}

@@ -1,0 +1,30 @@
+.TabHeader {
+
+}
+
+.TabHeader .ant-tabs-tab {
+    padding: 7px 15px !important;
+    font-size: 12px;
+    border: none !important;
+    background-color: #fff !important;
+    border-bottom: #999999 solid 1px !important;
+    margin: 0 !important;
+    color: #004b91;
+}
+
+.TabHeader .ant-tabs-tab-active {
+    border: #999999 solid 1px !important;
+    border-bottom: none !important;
+    color: #666666;
+    padding: 5px 13px !important;
+    box-sizing: border-box !important;
+    border-radius: 0!important;
+}
+
+.TabHeader .ant-tabs-top > .ant-tabs-nav::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: #999999 solid 1px !important;
+    content: '';
+}

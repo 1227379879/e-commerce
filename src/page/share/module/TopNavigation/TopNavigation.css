@@ -1,0 +1,35 @@
+.TopNavigation {
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    border-bottom: #cccccc solid 1px;
+    background-color: #f4f4f4;
+    padding: 6px 0;
+}
+
+.TopNavigation a {
+    color: #003399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.TopNavigation a:hover{
+    color: #003399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.TopNavigation-color1 {
+    color: #cc6600;
+    font-weight: bold;
+}
+
+.TopNavigation-color2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.TopNavigation span {
+    margin: 0 5px;
+    font-weight: bold;
+    color: #7e007e;
+}

@@ -1,0 +1,32 @@
+.TabHeader-Tab3 {
+
+}
+
+.TabHeader-message {
+    width: 100%;
+    border: #89bdd9 solid 1px;
+    margin-top: 25px;
+    display: flex;
+    height: 35px;
+}
+
+.THeader-message-left{
+    background-color: #d0e4f0;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.THeader-message-right {
+    font-size: 12px;
+    color: #064c72;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.THeader-message-right span{
+    color: #004b91;
+    font-weight: bold;
+}

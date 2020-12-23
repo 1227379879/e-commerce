@@ -1,0 +1,55 @@
+.TabHeader-Tab3-scope {
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.TabHeader-Tab3-scope select {
+    border-radius: 2px;
+    color: #000000;
+}
+
+.TabHeader-Tab3-show {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.THeader-T3-show-left {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.THeader-T3-show-left span {
+    color: #444444;
+    font-weight: bold;
+}
+
+.THeader-T3-show-left input {
+    margin: 0 2px 0 8px;
+}
+
+.THeader-T3-show-right {
+    display: flex;
+}
+
+.THeader-T3-show-right input {
+    font-size: 12px;
+    border: #a9a9a9 solid 1px;
+    padding: 0 5px;
+    border-radius: 0 !important;
+}
+
+.THeader-T3-show-right button {
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+    border: #888858 solid 1px;
+    background-color: #e2e2be;
+    color: #000066;
+    border-radius: 50%;
+}

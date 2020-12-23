@@ -1,0 +1,97 @@
+.TabHeader-Tab1 {
+
+}
+
+.THeader-Tab1 {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.THeader-Tab1-right {
+    font-size: 12px;
+}
+
+.THeader-Tab1-right span:nth-child(2) {
+    margin: 0 8px;
+    color: #6e4492;
+}
+
+.THeader-Tab1-right span:nth-child(3) {
+    color: #004b91;
+}
+
+.THeader-Tab1-productList-title {
+    display: flex;
+    font-size: 12px;
+    border-bottom: #999999 solid 1px;
+}
+
+.TH-T1-pList-global {
+    margin: 0 10px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.TH-T1-pList-name {
+    width: 240px;
+}
+
+.TH-T1-pList-number {
+    width: 160px;
+}
+
+.TH-T1-pList-time {
+    width: 160px;
+}
+
+.TH-T1-pList-update {
+    width: 160px;
+}
+
+.TH-T1-pList-maku {
+    width: 40px;
+}
+
+.TH-T1-pList-shipments {
+    width: 40px;
+}
+
+.TH-T1-pList-receive {
+    width: 40px;
+}
+
+.TH-T1-pList-destination {
+    width: 65px;
+}
+
+.TH-T1-pList-status {
+    width: 65px;
+}
+
+.THeader-Tab1-productList {
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 12px;
+    display: flex;
+    border-top: #999999 solid 1px;
+}
+
+.TH-T1-pList-button {
+    flex: 1;
+}
+
+.TH-T1-pList-button button {
+    width: 200px;
+    border-radius: 4px;
+    background-color: #e4e4bf;
+    font-size: 12px;
+    border: #7a7a4c solid 1px;
+    color: #000066;
+}
+.TH-T1-pList-button div{
+    color: #004b91;
+}
+.TH-T1-pList-button div span{
+    margin: 0 3px;
+}
